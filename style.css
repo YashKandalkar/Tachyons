@@ -1,0 +1,53 @@
+body{
+	margin: 0px;
+}
+
+li{
+}
+.container {
+	height: 100vh;
+	background: #bbe1fa;
+	display: flex; /* or inline-flex */
+	justify-content: center;
+	align-items: center;
+ }
+
+ .title{
+ 	color: #deff8b;
+ 	font-size: 6vh;
+ }
+
+.ques{
+	color: #ffcc00;
+	font-size: 5.5vh;
+}
+
+.options{
+	font-size: 5.5vh;
+}
+
+#main{
+	width: 75vw;
+	height: 75vh;
+	background: #3282b8;
+	border:30px solid #0f4c75;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: column;
+}
+
+#play{
+	color: #1b262c;
+	animation: scale 0.6s alternate infinite ease-in-out;
+}
+
+
+@keyframes scale{
+	0%{
+		transform: scale(.9);
+	}
+	100%{
+		transform: scale(1.2);
+	}
+}
